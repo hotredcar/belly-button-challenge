@@ -141,8 +141,6 @@ function drawBubbleChart(select, data) {
         marker: {   
                     color: selection.otu_ids,
                     size: selection.sample_values,
-                    height: 500,
-                    width: 50000,
                     colorscale: 'Viridius'
                 }    
              };
